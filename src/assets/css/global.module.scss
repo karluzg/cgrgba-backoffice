@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./../fonts/Inter-Regular.ttf') format('truetype');
+}
+
+$primary-color: #F3F3F3;
+$secondary-color: #FFF;
+$text-color: #565360;
+$label-color: #908E9B;
+$disabled-color: #908E9B;
+$black: #000;
+$red: #C33948;
+$enabled_button_color: #506E58;
+$disabled_button_color: #A1B0A5;
+$footer-primary-color: #506E58;
+$footer-secondary-color: #0C3617;
+
+
+$font-size-sm-1: 0.25rem; //4px
+$font-size-sm-2: 0.5rem; //8px
+$font-size-sm-3: 0.75rem; //12px
+
+$font-size-md-1: 1rem; //16px
+$font-size-md-2: 1.25rem; //20px
+$font-size-mm-3: 1.5rem; //24px
+
+$font-size-lg-1: 2rem; //32px
+$font-size-lg-2: 3rem; //48px
+$font-size-lg-3: 4rem; //64px
+
+$font-family: 'Inter' !important;
+
+
+body {
+    background-color: $primary-color;
+    font-family: 'Inter', sans-serif;
+}

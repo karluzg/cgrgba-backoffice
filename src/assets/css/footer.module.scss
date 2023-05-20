@@ -1,0 +1,20 @@
+@use './global.module.scss' as global;
+
+.footer {
+    padding: 40px  50px !important;
+    margin-top: 'auto' !important;
+    background-color: global.$footer-primary-color !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    position: 'relative' !important;
+    padding-top: '50px' !important;
+    color: #FFF !important;
+}
+
+.footer > * p {
+    color: #FFF !important;
+}
+
+
+            
